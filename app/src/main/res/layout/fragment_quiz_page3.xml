@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myownquiz.QuizPage3"
+    android:background="@drawable/attack">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:id="@+id/quizpage3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Quiz Page 3"
+        android:textSize="24sp"
+        android:fontFamily="@font/digital"
+        android:textColor="#7FFF00"
+        android:paddingTop="30dp"
+        android:paddingStart="9dp"
+        />
+    <TextView
+        android:id="@+id/seventhquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:paddingStart="9dp"
+        android:paddingTop="90dp"
+        android:text="7-) What Is The Costliest Famous Virus Attack Ever?"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+       />
+    <CheckBox
+        android:id="@+id/interview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="11dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="Storm Worm"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/mydoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="MyDoom"
+        android:textColor="#00fffb "
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/iloveyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="200dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="ILOVEYOU"
+        android:textColor="#00fffb "
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="11dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="Sasser And Netsky"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/eightthquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:paddingStart="9dp"
+        android:paddingTop="250dp"
+        android:text="8-) Which Is The Most Common Spyware Threat?"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/coolwebsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="11dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="Cool Web Search"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/gator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="Gator"
+        android:textColor="#00fffb"
+        android:textSize="15sp" />
+    <CheckBox
+        android:id="@+id/searchassistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="340dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="180  searchAssistant"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/istbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="340dp"
+        android:buttonTint="#00fffb"
+        android:fontFamily="@font/digital"
+        android:text="ISTbar"
+        android:textColor="#00fffb"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7FFF00"
+        android:textSize="24sp"
+        android:fontFamily="@font/digital"
+        android:text="I'm So Glad To You've Struggled On My Quiz"
+        android:paddingTop="400dp"
+        android:paddingStart="9dp"
+        />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="43dp"
+        android:background="#24cccc"
+        android:text="Next"
+        android:textColor="#eec972 "
+        android:layout_marginTop="452dp"
+        android:layout_marginLeft="297dp"
+        />
+</FrameLayout>

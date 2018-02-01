@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myownquiz.MyOwnQuiz"
+    android:background="@drawable/cyber"
+    >
+
+    <TextView
+         android:id="@+id/welcoming"
+         android:text="Cyber Attacks Awareness Quiz"
+         android:textColor="#7FFF00"
+         android:textSize="24sp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:fontFamily="@font/digital"
+         android:paddingTop="30dp"
+         android:paddingStart="9dp"
+        />
+
+    <TextView
+        android:id="@+id/firstquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:paddingStart="9dp"
+        android:paddingTop="90dp"
+        android:text=" 1-) What Was The Biggest Cyber Attack Targeted US?"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+         />
+
+    <CheckBox
+        android:id="@+id/stuxnet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Stuxnet"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="11dp" />
+    <CheckBox
+        android:id="@+id/wiper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Wiper"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
+        />
+
+    <CheckBox
+        android:id="@+id/wannacry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="WannaCry"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="200dp" />
+
+    <CheckBox
+        android:id="@+id/titanrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Titan Rain"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:id="@+id/secondquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:paddingStart="9dp"
+        android:paddingTop="240dp"
+        android:text=" 2-) Which Cyber Attack Forced Iran To Stop Their Nuclear Program?"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+         />
+
+    <CheckBox
+        android:id="@+id/meltdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Meltdown"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="11dp" />
+
+    <CheckBox
+        android:id="@+id/stuxNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Stuxnet"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="160dp" />
+
+    <CheckBox
+        android:id="@+id/redoctober"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Red October"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="11dp" />
+
+    <CheckBox
+        android:id="@+id/greathackerwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="Great Hacker War"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="340dp" />
+
+    <TextView
+        android:id="@+id/thirdquesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:paddingStart="9dp"
+        android:paddingTop="380dp"
+        android:text=" 3-)When and Where The Most Destructive Cyber Attack Ever Happened?"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+      />
+
+    <CheckBox
+        android:id="@+id/estonia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="2007-Estonia"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="11dp" />
+
+    <CheckBox
+        android:id="@+id/france"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="2015-France"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="11dp" />
+
+    <CheckBox
+        android:id="@+id/ukraine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="2014-Ukraine"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="160dp" />
+
+    <CheckBox
+        android:id="@+id/london"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#eec972"
+        android:fontFamily="@font/digital"
+        android:text="2005-London"
+        android:textColor="#eec972 "
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="160dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="43dp"
+        android:background="#24cccc"
+        android:text="Next"
+        android:textColor="#eec972 "
+        android:layout_marginTop="452dp"
+        android:layout_marginLeft="297dp" />
+</RelativeLayout>
